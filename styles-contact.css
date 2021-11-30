@@ -53,16 +53,16 @@ table {
 
 
 
-/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is Alen Nolasco and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2021 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #404040; 
-	
-	
+  background: url(images/bricks_yellow.jpg) 
+	center center fixed no-repeat;
+		background-size: cover;
 }
 
 .center {
@@ -82,14 +82,16 @@ html, body {
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: bebas-neue-by-fontfabric, sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -98,7 +100,7 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: bebas-neue-by-fontfabric, sans-serif;		
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
