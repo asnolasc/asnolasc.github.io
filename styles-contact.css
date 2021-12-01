@@ -71,7 +71,7 @@ html, body {
     margin: 100px auto;
  	background: rgba(100, 64, 7, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px white;
 }
 
    
