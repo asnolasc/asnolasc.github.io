@@ -85,7 +85,7 @@ h1 {
 	font-family: bebas-neue-by-fontfabric, sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(241, 199, 10);
 	animation: fadeIn ease 10s; /* I tried making the caption fade in will try again.*/
 	-webkit-animation:fadeIn ease 10s;
 	-moz-animation:fadeIn ease 10s;
@@ -99,7 +99,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(241, 199, 10);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -108,7 +108,7 @@ p {
 	font-family: bebas-neue-by-fontfabric, sans-serif;		
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(241, 199, 10);
 }
     
     
