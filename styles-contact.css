@@ -86,7 +86,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
-	animation: fadeIn ease 10s;
+	animation: fadeIn ease 10s; /* I tried making the caption fade in will try again.*/
 	-webkit-animation:fadeIn ease 10s;
 	-moz-animation:fadeIn ease 10s;
 	-o-animation:fadeIn ease 10s;
@@ -118,7 +118,7 @@ nav{
 	font-size: 1.2em;
 	width:400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: dashed rgb(37, 13, 255);
 	border-width: 3px 0;
 	text-align: center;
 margin-top: 2em;
@@ -139,6 +139,6 @@ a{
 	font-weight: bold;
 	}
 a:hover{
-	color:black;
-	background:pink;
+	color:rgb(6, 218, 255);
+	background:rgb(3, 0, 3);
 	}
