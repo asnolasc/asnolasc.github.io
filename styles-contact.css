@@ -82,15 +82,10 @@ html, body {
 }
 
 h1 {
-	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-family: Courier New, sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: rgb(241, 199, 10);
-	animation: fadeIn ease 10s; /* I tried making the caption fade in will try again.*/
-	-webkit-animation:fadeIn ease 10s;
-	-moz-animation:fadeIn ease 10s;
-	-o-animation:fadeIn ease 10s;
-	-ms-animation: fadeIn ease 10s;
 }
 
 h2 {
