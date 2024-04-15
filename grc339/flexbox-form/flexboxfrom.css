@@ -4,7 +4,7 @@ body {
 	font-family: sans-serif;
 	line-height: 1.4em;
 	color: #222;
-	background-color: #ca0000;
+	background-color: #ffffff;
 	box-sizing: border-box;
 	}
 h2{
@@ -70,7 +70,7 @@ textarea {
 	display: flex;
 	width: 15em; 
 	height: 6em;
-	background: #028337;
+	background: #fdfffe;
 	border: 1px solid #8e0f0f;
 	padding: 0.4em;
 	font-family: sans-serif;
