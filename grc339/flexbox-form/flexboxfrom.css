@@ -32,17 +32,36 @@ flex: 1;
 	box-sizing: border-box;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0;
+}
 
 
 section {
     background: #eee;
     padding: 1em;
-    margin-bottom: 1em;
+    margin: 0 0 1em;
+
+}
+
+ section ul li {
+	flex: 1;
+	max-width: 50em;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0em;
+} 
+
+section ul li label {
+	flex: 1 0 0em;
 }
 
 section p {
 	margin-top: 0;
+
 }
+
 
 textarea {
 	box-sizing: border-box;
@@ -56,10 +75,28 @@ textarea {
 	color: #777;
 	}
 
- 
+	@media screen and (min-width: 40em) {
+		div.container {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		section.order ul {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		section.personal-info ul li{
+			margin: 1em 0em 0em 0em;
+		}
+		section.method ul {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		section ul li {
+			flex: 0 0 15em; 
+		}
+	  }
 
-  div.container {
-    margin: 0;
-  }
+
+
 
 
