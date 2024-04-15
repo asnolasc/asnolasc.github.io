@@ -1,4 +1,3 @@
-
 /*CSS DOCUMENT*/
 
 body {
@@ -21,7 +20,7 @@ section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
-flex: 1 0 40em; 
+flex: 1 0 40em;  
 	box-sizing: border-box;
 }
 
@@ -39,8 +38,8 @@ section p {
 
 textarea {
 	box-sizing: border-box;
-/*	display: _____;
-	width: _____;  I’m helping you out with the other properties, but you need to figure these two out. (And delete this comment. */
+	display: _____;
+	width: _____; 
 	height: 6em;
 	background: #fcfcfc;
 	border: 1px solid #e8e8e8;
@@ -49,12 +48,10 @@ textarea {
 	color: #777;
 	}
 
-/* You want to delete this line to make the media query work. Then you’ll only need one declaration block with one declaration in it. You got it, right? You know how to center the content on the page.
-@media only screen and (min-width: 40em) {
+ 
 
   div.container {
-    margin: _____;
+    margin: 0;
   }
 
-}
-➤ Delete this line too. */
+
