@@ -28,8 +28,10 @@ section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
-flex: 1;  
-	box-sizing: border-box;
+    list-style-type: none;
+	flex: 1; 
+	max-width: 50%;
+	box-sizing: border-box
 }
 
 ul {
@@ -68,8 +70,8 @@ textarea {
 	display: flex;
 	width: 15em; 
 	height: 6em;
-	background: #fcfcfc;
-	border: 1px solid #e8e8e8;
+	background: #028337;
+	border: 1px solid #8e0f0f;
 	padding: 0.4em;
 	font-family: sans-serif;
 	color: #777;
